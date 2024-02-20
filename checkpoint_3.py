@@ -22,7 +22,6 @@ query_list_last = list_example[-1]
 #Exercise 6
 names = 'harry,alex,susie,jared,gail,conner'
 names_list = names.split(',')
-print(names_list)
 
 #Exercise 7
 string_word = string_example[:4]
@@ -33,10 +32,10 @@ new_string = f'{string_word_upp}{string_example[4:]}'
 new_sentence = f'The probability of precipitation today is {number_example}'
 
 #We could also use format method:
-# new_sentence_two = 'The probability of precipitation today is ' + str(number_example)
+# new_sentence_two = 'The probability of precipitation today is {0}'.format(number_example)
 
 #Or we could do it without string interpolation, converting the number into a string
-# new_sentence_three = 'The probability of precipitation today is {0}'.format(number_example)
+# new_sentence_three = 'The probability of precipitation today is ' + str(number_example)
 
 #Exercise 9
 print('hello world')
